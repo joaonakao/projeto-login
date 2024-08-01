@@ -8,7 +8,7 @@ desktop: 992ps ate 1200px
 grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
     body, html{
     background-image: linear-gradient(to top, #49a09d, #5f2c82); 
     }  
@@ -40,13 +40,12 @@ grandes telas: acima de 1200px
         border-top-right-radius: 0px;
     }
 
-
     #senha{
         width: 97%;
     }
 
     #isenha{
-        width: 86%;
+        width: 88.6%;
     }
 
     #email{
@@ -54,7 +53,7 @@ grandes telas: acima de 1200px
     }
 
     #iemail{
-        width: 86%;
+        width: 88.6%;
     }
 
 
