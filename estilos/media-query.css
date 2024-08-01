@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* typical device breakpoints
+pequenas telas: ate 600px
+celular: 600px ate 768px
+tablet:768px até 992px
+desktop: 992ps ate 1200px
+grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) {
+    body, html{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82); 
+    }  
+
+    #login{
+        width: 90%;
+        height: 40%;
+    }
+
+    #formulario{
+        width: 68%;
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        overflow: hidden;
+        transform: translate(-50%,-50%);
+    }
+
+    .material-symbols-outlined{
+        color: white;
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-top-right-radius: 0px;
+    }
+
+
+    #senha{
+        width: 100%;
+    }
+
+    #isenha{
+        width: 89%;
+        padding-right: 2%;
+    }
+
+    #email{
+        width: 100%;
+    }
+
+    #iemail{
+        width: 89%;
+        padding-right: 2%;
+    }
+
+
+    #ientrar{
+        width: 100%;
+    }
+
+    a{
+        width: 99.6%;
+    } 
+}
+
+@media screen and (min-width: 992px) {
+    body, html{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82); 
+    }  
+
+    #login{
+        width: 950px;
+        height: 350px;
+    }
+
+    #formulario{
+        width: 460px;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        overflow: hidden;
+        transform: translate(-50%,-50%);
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-top-left-radius: 0px;
+    }
+    #senha{
+        width: 100%;
+    }
+
+    #isenha{
+        width: 88.5%;
+    }
+
+    #email{
+        width: 100%;
+    }
+
+    #iemail{
+        width: 88.5%;
+    }
+
+
+    #ientrar{
+        width: 100%;
+    }
+
+    a{
+        width: 99.6%;
+    } 
+}

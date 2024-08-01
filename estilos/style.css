@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* paleta de cores
+    verde: #49a09d
+    lilás: #5f2c82
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+
+#login, #email, #iemail, #senha, #isenha, a{
+    transition: 0.3s;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight:700;
+}
+
+p{
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 515px;
+    background-color: white; 
+    border-radius: 15px;
+    margin: auto;
+}
+
+#formulario{
+    
+}
+
+#imagem{
+    display: block;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/pexels-bruthethe-2747596\ \(1\).jpg);
+}
+
+#email{
+    background-color: #5f2c82;
+    height: 40px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#senha{
+    background-color: #5f2c82;
+    height: 40px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#iemail{
+    background-color: #98e6e3d9;
+    border: none;
+    border-radius: 5px;
+    width: 178px;
+    height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 2.5px;
+}
+
+#isenha{
+    background-color: #98e6e3d9;
+    border: none;
+    border-radius: 5px;
+    width: 178px;
+    height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 2.5px;
+}
+
+#ientrar{
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    height: 40px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+#ientrar:hover{
+    background-color:#307472;
+}
+
+.material-symbols-outlined{
+    color: white;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+a{
+    background-color: white;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    color: #49a09d;
+    display: block;
+    height: 40px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+a:hover{
+    color: white;
+    background-color: #49a09d;
+}
+
+a > p{
+    text-align: center;
+    font-size: 1em;
+}
+
+
+
+
