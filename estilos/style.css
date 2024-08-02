@@ -45,11 +45,14 @@ p{
     left: 50%;
     overflow: hidden;
     transform: translate(-50%,-50%);
+
     width: 250px;
     height: 515px;
     background-color: white; 
     border-radius: 15px;
     margin: auto;
+    box-shadow: 0px 0px 10px rgba(25, 0, 41, 0.211);
+
 }
 
 #formulario{
@@ -59,8 +62,6 @@ p{
 #imagem{
     display: block;
     height: 200px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
