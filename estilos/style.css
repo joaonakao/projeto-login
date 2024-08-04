@@ -17,10 +17,6 @@ body, html{
     display: block;
 }
 
-#login, #email, #iemail, #senha, #isenha, a{
-    transition: 0.3s;
-}
-
 main{
     height: 100vh;
     width: 100vw;
@@ -52,6 +48,9 @@ p{
     border-radius: 15px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(25, 0, 41, 0.211);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 
 }
 
