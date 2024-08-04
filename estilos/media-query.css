@@ -45,7 +45,7 @@ grandes telas: acima de 1200px
     }
 
     #isenha{
-        width: 88.6%;
+        width: calc(95% - 28px);
     }
 
     #email{
@@ -53,7 +53,7 @@ grandes telas: acima de 1200px
     }
 
     #iemail{
-        width: 88.6%;
+        width: calc(95% - 28px);
     }
 
 
@@ -97,7 +97,7 @@ grandes telas: acima de 1200px
     }
 
     #isenha{
-        width: 87.5%;
+        width: 88.5%;
     }
 
     #email{
@@ -105,7 +105,7 @@ grandes telas: acima de 1200px
     }
 
     #iemail{
-        width: 87.5%;
+        width: 88.5%;
     }
 
 
